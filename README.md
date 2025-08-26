@@ -1,6 +1,8 @@
 # Mock Server
 
-A simple HTTP mock server that serves responses from static JSON files. Perfect for local development (UI, or integeration with Third Party API) and quick testing when you need to simulate API responses without setting up a full backend.
+git branch -M main
+git remote add origin https://github.com/dhakalu/mock-server.git
+git push -u origin main. Perfect for local development (UI, or integeration with Third Party API) and quick testing when you need to simulate API responses without setting up a full backend.
 
 ## Features
 
