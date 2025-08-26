@@ -65,7 +65,10 @@ func handler() http.HandlerFunc {
 
 		w.Header().Set("Content-Type", "application/json")
 		w.WriteHeader(http.StatusOK)
-		w.Write(data)
+		_, err = w.Write(data)
+		if err != nil {
+			slog.Error("Response write error", "error", err)
+		}
 	})
 }
 
